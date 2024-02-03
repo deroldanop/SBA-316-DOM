@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', function () {
       newCostInput.value = '';
       
       //moneyToSpend.value = parseFloat(moneyToSpend.innerText);
-      console.log(`This is money" + "typeof(moneyToSpend.value)`);
+      console.log(`This is money ${moneyToSpend.value}`);
       
     });
     
