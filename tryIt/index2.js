@@ -61,10 +61,11 @@ document.addEventListener('DOMContentLoaded', function () {
         //if(Number(newAmountText.value) > Number(moneyToSpend.value)){
 
 c
-      }//costItem.classList.toggle('completed');
+      })
+      //costItem.classList.toggle('completed');
 
        // addTotal(costArray, taskForm);
-      });
+      //});
   
       // Append elements to the task list
       taskItem.appendChild(checkbox);
