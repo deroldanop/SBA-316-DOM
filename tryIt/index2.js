@@ -19,6 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
       
       //moneyToSpend.value = parseFloat(moneyToSpend.innerText);
       console.log(`This is money" + "typeof(moneyToSpend.value)`);
+      
     });
     
   console.log(newTaskInput.value);
@@ -53,8 +54,13 @@ document.addEventListener('DOMContentLoaded', function () {
       checkbox.type = 'checkbox';
       checkbox.addEventListener('change', function () {
         costItem.classList.toggle('completed');
-        if(costItem.classList.toggle()){
-        newAmountText.value = newAmountText.value - parseFloat(costItem.classList.value);    
+        // if (costItem.classList.style.display === "none"){   
+        //   console.log(`Este esta apagado ${costItem.classList.value}`)          
+        //  //(costItem.classList.toggle()){
+        // newAmountText.value -= parseFloat(costItem.classList.value);  
+        //if(Number(newAmountText.value) > Number(moneyToSpend.value)){
+
+c
       }//costItem.classList.toggle('completed');
 
        // addTotal(costArray, taskForm);
